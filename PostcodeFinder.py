@@ -136,6 +136,10 @@ while loop1 == 1:
             i = int(select_options)-1
             if i <= size :
                 webbrowser.open(list_map_link[i])
+                
+ # checks that user input is enter key - an '' which loops back to start              
+        if select_options == '':
+            loop3 = 0
  
 # closes off loop 3 which send program back to the start - loop 1            
         
