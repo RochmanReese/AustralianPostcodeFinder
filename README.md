@@ -21,7 +21,7 @@ Installation instructions
 
 Running the Script
 
-In windows you can either run from command line or once python 3 is installed you should be able to just click on file to run.
+In Windows open a command terminal (type cmd into search bar. Drag the PostcodeFinder.py file into the command terminal which will open the terminal in the folder where PostcodeFinder.py is located. If you just click on the PostcodeFinder.Py it will still work, however the terminal will close immediately after the webpage opens which make multiple searches much more tedious.  
 
 In Linux, open a terminal in the same folder that the files are in then type python3 ./PostcodeFinder.py
 
