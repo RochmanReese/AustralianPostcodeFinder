@@ -88,7 +88,7 @@ while loop1 == 1:
                     print('\n',x,row[1],'\n\r',row[2],row[0],'\n','latitude ',row[4],' longitude ',row[5],'\n')
                     
 # creates a string called map_link which uses lat and long values from csv file and concatenates into a single URL 
-                    map_link = 'https://osmand.net/map/?pin=' + str(row[4]) +',' + str(row[5]) + '#12/' + str(row[4]) + '/' + str(row[5])
+                    map_link = 'https://osmand.net/map/?pin=' + str(row[4]) +',' + str(row[5]) + '#6/' + str(row[4]) + '/' + str(row[5])
                     
 # appends each search result into a listof Urls for opening maps                 
                     list_map_link.append(map_link[:])
